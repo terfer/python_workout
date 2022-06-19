@@ -1,7 +1,7 @@
 def hex_output(hex):
     int_n = 0
     for i,j in enumerate(reversed(hex[2:])):
-        if j not in ('a','b','c','d','e','f'):
+        if j not in 'abcdef':
             int_n += int(j) * 16**i
         else:
             if j == 'a':
