@@ -1,5 +1,3 @@
-import logging
-
 def run_timing(*arg):
     run_time = input('Enter 10 km run time: ')
     n_call = arg[1] + 1
