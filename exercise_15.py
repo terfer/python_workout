@@ -19,6 +19,7 @@ class CitiesR:
             message += i + ": " + str(self.cities_rainfalls[i]) + "\n"
         return message
 
+
 def get_rainfall() -> CitiesR:
     cities_rainfall = CitiesR()
     while True:
@@ -31,5 +32,6 @@ def get_rainfall() -> CitiesR:
         else:
             cities_rainfall.add_key(key=city, value=rainfall)
     return cities_rainfall
+
 
 print(get_rainfall())
