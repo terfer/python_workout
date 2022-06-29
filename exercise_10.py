@@ -4,4 +4,4 @@ def mysum(*arg):
     sum = arg[0]
     for i in arg:
         sum += i
-    return sum 
+    return sum

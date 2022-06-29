@@ -1,5 +1,6 @@
 from exercise_5 import pig_latin
 
+
 def pl_sentence(sentence: str) -> str:
     pl_sentence = ""
     for i in sentence.split(' '):
